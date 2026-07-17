@@ -1,0 +1,88 @@
+<!-- focus : structure+design+Layout Assignment 1
+Create Your Portfolio Webpage
+* Sections : About, Education, Skills, Contact 
+* Use proper HTML tags(header, section, footer, etc.)
+* Add profile photo & basic styling using CSS
+
+Skill gain : HTML structure, semantic tags, layout basics.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Webpage</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+<!-- header ------------------------------------------------>
+        <header>
+            <h1>My Portfolio Website</h1>
+            <h2>Contents</h2>
+            <nav>
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+<!-- main--------------------------------------------------- -->
+        <main>
+            <!-- about -->
+            <section id="about">
+                <h2>About me</h2>
+                <ul>
+                    <li>My name is Lols.</li>
+                    <li>I am 24 years old.</li>
+                </ul>
+                <figure>
+                    <img src="image.jpg" title="Profile Photo" 
+                    alt="Profile Photo" width="200" 
+                    loading="lazy"></a>
+                    <figcaption>My Profile Photo</figcaption>
+                </figure>
+            </section>
+            <hr>
+
+            <!-- education -->
+            <section  id="education">
+                <h2>My Education</h2>
+                <ul>
+                    <li>I passed 10th from SEBA, Assam Boards.</li>
+                    <li>I passed 12th from AHSEC, Assam Boards.</li>
+                    <li>I am Student of <abbr title="Computer Sccience Engineering">CSE</abbr> in <abbr
+                            title="Girijananda Chowdhury University">GCU.</abbr></li>
+                    <li>Recenlty completed 5th semeser.</li>
+                </ul>
+            </section>
+            <hr>
+
+            <!-- skills -->
+             <section id="skills">
+                <h2>My Skills</h2>
+                <ul>
+                    <br>I am :
+                    <li>Efficient in C++</li>
+                    <li>Efficient in Python</li>
+                    <li>Moderate in <abbr title="Data Structures and algorithms">DSA</abbr></li>
+                </ul>
+             </section>
+             <hr>
+        </main>
+<!-- ---------------------------------------------------------- -->
+
+<!-- footer ---------------------------------------------------- -->
+        <footer>
+            <address>
+                <br>India,
+                <br>Assam,Goalpara
+                <br>Lakhipur,783129
+            </address>
+        </footer>
+<!-- ------------------------------------------------------------ -->
+    </body>
+</html>
